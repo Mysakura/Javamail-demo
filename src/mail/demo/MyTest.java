@@ -5,7 +5,7 @@ public class MyTest {
 	public static void main(String[] args) {
 		SendingPool pool = SendingPool.getInstance();
 		
-		pool.addThread(new Sending("3110320051@qq.com", "AAA", createEmail().toString(), "file/1.jpg")).shutDown();
+		pool.addThread(new Sending("收件人", "AAA", createEmail().toString(), "file/1.jpg")).shutDown();
 		
 	}
 	
